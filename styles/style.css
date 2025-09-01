@@ -95,7 +95,7 @@ a{ color:inherit; }
   padding: 8px var(--tb-pad-r) 8px var(--tb-pad-x);
   background:#0a0a0a;
   border-bottom:1px solid var(--line);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .burger{ grid-area: burger; }
 .logo{ grid-area: logo; }
@@ -610,7 +610,7 @@ a{ color:inherit; }
 @media (max-width:640px){  #view-tokenomics .tok-cards{ grid-template-columns: 1fr; } }
 
 .ca-box{
-  max-width:1200px; margin:16px auto 0px; padding:10px 14px;
+  max-width:1200px; margin:0px auto 25px; padding:10px 14px;
   display:flex; align-items:center; gap:10px;
   background:#111; border:1px solid var(--line); border-radius:12px;
   font-size:14px; box-shadow: var(--shadow); overflow:hidden;
